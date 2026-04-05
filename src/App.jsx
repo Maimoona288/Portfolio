@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './pages/Home'
 import reactLogo from './assets/icons/react.svg'
 import viteLogo from './assets/icons/vite.svg'
 import './App.css'
@@ -8,8 +11,11 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl text-blue-500">Working</h1>
-     
+     <Header/>
+       <div className="pb-20">
+        <Home />
+      </div>
+     <Footer/>     
     </>
   )
 }
