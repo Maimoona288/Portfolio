@@ -24,7 +24,7 @@ function Header() {
         </h1>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex gap-10">
           {["home", "about", "projects", "contact"].map((item) => (
             <button
               key={item}
