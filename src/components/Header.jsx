@@ -17,19 +17,19 @@ function Header() {
 
         {/* Logo */}
         <h1
-          className="text-xl font-bold cursor-pointer hover:text-accent transition"
-          onClick={() => scrollToSection("hero")}
+          className="text-xl font-bold cursor-pointer hover:transition"
+          onClick={() => scrollToSection("home")}
         >
           Maimoona Shahbaz
         </h1>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-10">
+        <nav className="hidden md:flex gap-8">
           {["home", "about", "projects", "contact"].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="capitalize hover:text-accent hover:scale-105 transition duration-300"
+              className="capitalize hover:text-indigo-100 hover:scale-105 transition duration-300"
             >
               {item}
             </button>
@@ -40,7 +40,7 @@ function Header() {
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-2xl hover:text-accent transition"
+            className="text-2xl hover:text-indigo-100 transition"
           >
             ☰
           </button>
@@ -50,14 +50,14 @@ function Header() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden fixed top-16 right-4 z-50">
-          <div className="w-64 bg-indigo-900 text-white rounded-xl shadow-2xl border border-indigo-700">
+          <div className="w-64 bg-indigo-800 text-white rounded-xl shadow-2xl border border-indigo-700">
             
             <div className="flex flex-col py-4">
               {["home", "about", "projects", "contact"].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
-                  className="text-left px-4 py-2 capitalize hover:bg-indigo-800 hover:text-accent transition rounded-lg"
+                  className="text-left px-4 py-2 capitalize hover:bg-indigo-800 hover:text-indigo-100 transition rounded-lg"
                 >
                   {item}
                 </button>

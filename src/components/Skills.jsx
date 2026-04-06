@@ -44,10 +44,10 @@ function Skills() {
 
           {/* Frontend */}
           <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-slate-800 mb-4">
+            <h3 className="text-xl font-semibold text-slate-800 mb-4  text-center md:text-left">
               Frontend
             </h3>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               {skills.frontend.map((skill, index) => (
                 <span key={index} className={badgeStyle}>
                   <span className="text-indigo-600">{skill.icon}</span>
@@ -59,10 +59,10 @@ function Skills() {
 
           {/* Backend */}
           <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-slate-800 mb-4">
+            <h3 className="text-xl font-semibold text-slate-800 mb-4 text-center md:text-left">
               Backend
             </h3>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               {skills.backend.map((skill, index) => (
                 <span key={index} className={badgeStyle}>
                   <span className="text-indigo-600">{skill.icon}</span>
@@ -74,10 +74,10 @@ function Skills() {
 
           {/* Tools */}
           <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-slate-800 mb-4">
+            <h3 className="text-xl font-semibold text-slate-800 mb-4  text-center md:text-left">
               Tools
             </h3>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               {skills.tools.map((skill, index) => (
                 <span key={index} className={badgeStyle}>
                   <span className="text-indigo-600">{skill.icon}</span>
