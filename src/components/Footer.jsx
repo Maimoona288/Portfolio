@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-      <footer className="bg-indigo-900 text-white w-full border-t border-indigo-700 mt-16">
+      <footer className="bg-indigo-800 text-white w-full border-t border-indigo-700 mt-16">
       <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col items-center gap-3">
         
         {/* Copyright */}

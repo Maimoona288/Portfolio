@@ -21,3 +21,8 @@
 @keyframes blink {
   50% { border-color: transparent }
 }
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}

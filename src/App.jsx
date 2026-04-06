@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
+import Projects from './pages/Projects'
 import Home from './pages/Home'
 import About from './pages/About'
 import reactLogo from './assets/icons/react.svg'
@@ -18,6 +19,7 @@ function App() {
         <Home />
         <About />
         <Skills/>
+        <Projects/>
       </div>
       
      <Footer/>     

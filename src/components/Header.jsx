@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-indigo-900 text-white fixed w-full top-0 z-50 shadow">
+    <header className="bg-indigo-800 text-white fixed w-full top-0 z-50 shadow">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
         {/* Logo */}
