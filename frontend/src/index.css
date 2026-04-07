@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.typing-text {
+  border-right: 2px solid #4338ca;
+  max-width: 22ch; /* 👈 IMPORTANT: stops overflow */
+  width: 0;
+  animation: typing 3.5s steps(22) infinite, blink 0.7s step-end infinite;
+}
+
+/* typing */
+@keyframes typing {
+  0% { width: 0 }
+  50% { width: 22ch }
+  70% { width: 22ch }
+  100% { width: 0 }
+}
+
+/* cursor */
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
