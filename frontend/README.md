@@ -27,7 +27,7 @@ This is a full-stack portfolio website built using the MERN stack. It showcases 
 
 ## 🔗 Live Demo
 
-Frontend: https://your-frontend-link
+Frontend: https://portfolioo-e1x07bsjt-maimoonashahbaz348-4444s-projects.vercel.app/
 Backend: https://your-backend-link
 
 ---
