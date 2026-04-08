@@ -18,7 +18,7 @@ function Header() {
         {/* Logo */}
         <h1
           className="text-xl font-bold cursor-pointer hover:transition"
-          onClick={() => scrollToSection("home")}
+          onClick={() => scrollToSection("hero")}
         >
           Maimoona Shahbaz
         </h1>

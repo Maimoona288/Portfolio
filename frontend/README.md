@@ -1,16 +1,67 @@
-# React + Vite
+# 🌐 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This is a full-stack portfolio website built using the MERN stack. It showcases my projects, skills, and includes a contact form with email functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive UI (Mobile + Desktop)
+* Smooth scrolling navigation
+* Dynamic project rendering
+* Contact form with MongoDB storage
+* Email sending using Nodemailer
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* Frontend: React, Tailwind CSS
+* Backend: Node.js, Express.js
+* Database: MongoDB
+* Email Service: Nodemailer
+
+---
+
+## 🔗 Live Demo
+
+Frontend: https://your-frontend-link
+Backend: https://your-backend-link
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repo
+
+git clone https://github.com/your-username/portfolio.git
+
+### 2. Install Dependencies
+
+cd frontend → npm install
+cd backend → npm install
+
+### 3. Environment Variables
+
+Create `.env` in backend:
+EMAIL_USER=[yourgmail@gmail.com](mailto:yourgmail@gmail.com)
+EMAIL_PASS=your_app_password
+
+### 4. Run Project
+
+Frontend: npm run dev
+Backend: node server.js
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 👩‍💻 Author
+
+Maimoona Shahbaz

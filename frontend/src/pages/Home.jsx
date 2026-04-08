@@ -3,7 +3,7 @@ import profile from "../assets/images/profile.jpeg";
 function Home() {
   return (
     <section
-      id="hero"
+      id="home"
       className="min-h-screen flex items-center bg-slate-50  pt-16 md:pt-20"
     >
       <div className="max-w-7xl mx-auto px-6 w-full grid md:grid-cols-2 gap-10 items-center">
