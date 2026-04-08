@@ -21,9 +21,20 @@ function Home() {
               passionate about building modern web applications.
             </span>
           </p>
-          <button className="mt-8 font-semibold bg-indigo-700 text-white px-6 py-3 rounded-lg hover:bg-indigo-800 transition duration-300">
+          {/* <button className="mt-8 font-semibold bg-indigo-700 text-white px-6 py-3 rounded-lg hover:bg-indigo-800 transition duration-300">
             View Projects
-          </button>
+          </button> */}
+          <button
+  onClick={() => {
+    const section = document.getElementById("projects");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+  className="mt-8 font-semibold bg-indigo-700 text-white px-6 py-3 rounded-lg hover:bg-indigo-800 transition duration-300"
+>
+  View Projects
+</button>
         </div>
 
         {/* Right side Profile image */}

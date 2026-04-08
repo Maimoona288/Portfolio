@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This is a full-stack portfolio website built using the MERN stack. It showcases my projects, skills, and includes a contact form with email functionality.
+This is a full-stack portfolio website built using the MERN stack. It showcases dummy projects cause i dont have any good enough projects to post yet but in future there will be, my skills, and includes a contact form with email functionality.
 
 ---
 
@@ -27,7 +27,7 @@ This is a full-stack portfolio website built using the MERN stack. It showcases 
 
 ## 🔗 Live Demo
 
-Frontend: https://portfolioo-e1x07bsjt-maimoonashahbaz348-4444s-projects.vercel.app/
+Frontend: https://portfolioo-navy-nine.vercel.app/
 Backend: https://your-backend-link
 
 ---
@@ -36,8 +36,7 @@ Backend: https://your-backend-link
 
 ### 1. Clone Repo
 
-git clone https://github.com/your-username/portfolio.git
-
+git clone https://github.com/Maimoona288/Portfolio
 ### 2. Install Dependencies
 
 cd frontend → npm install
@@ -46,7 +45,8 @@ cd backend → npm install
 ### 3. Environment Variables
 
 Create `.env` in backend:
-EMAIL_USER=[yourgmail@gmail.com](mailto:yourgmail@gmail.com)
+MONGO_URI="...."
+EMAIL_USER=[yourgmail@gmail.com]
 EMAIL_PASS=your_app_password
 
 ### 4. Run Project
