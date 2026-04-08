@@ -28,7 +28,7 @@ This is a full-stack portfolio website built using the MERN stack. It showcases 
 ## 🔗 Live Demo
 
 Frontend: https://portfolioo-navy-nine.vercel.app/
-Backend: https://your-backend-link
+Backend: https://portfolio-production-c673.up.railway.app/
 
 ---
 
@@ -56,11 +56,14 @@ Backend: node server.js
 
 ---
 
+
+
 ## 📸 Screenshots
 
-(Add screenshots here)
-
----
+![Home](assets/images/home.png)
+![About](assets/images/About.png)
+![Project](assets/images/Project.png)
+![Skills](assets/images/Skills.png)
 
 ## 👩‍💻 Author
 
